@@ -1,0 +1,57 @@
+    body {
+
+        font-family: Arial, sans-serif;
+
+        margin: 0;
+
+        padding: 20px;
+
+        background-color: #000000;
+    }
+
+    h2 {
+        color: #ffffff;
+        margin-top: 0;
+    }
+
+    .homeintroniaxe {
+        max-width: 800px;
+        margin: 40px auto;
+        background: rgb(0, 0, 0);
+        padding: 30px;
+        border-radius: 8px;
+        line-height: 1.6;
+        color: #ffffff;
+        text-align: justify;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+
+        text-align: center;
+
+        margin-bottom: 30px;
+
+    }
+
+
+
+    nav a {
+
+        text-decoration: none;
+
+        color: #ffffff;
+
+        margin: 0 15px;
+
+        font-weight: bold;
+
+    }
+
+
+
+    nav a:hover {
+
+        color: #007bff;
+
+    }

@@ -1,0 +1,109 @@
+    body {
+
+        font-family: Arial, sans-serif;
+
+        margin: 0;
+
+        padding: 20px;
+
+        background-color: #13005d;
+    }
+
+    nav {
+
+        text-align: center;
+
+        margin-bottom: 30px;
+
+    }
+
+    nav a {
+
+        text-decoration: none;
+
+        color: #ffffff;
+
+        margin: 0 15px;
+
+        font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+        color: #007bff;
+
+    }
+
+    .carousel-wrapper {
+        height: auto;
+        width: auto;
+
+        margin: 0 auto;
+
+        position: relative;
+
+        overflow: hidden;
+
+        border-radius: 10px;
+
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+    }
+
+    .carousel {
+
+        display: flex;
+
+        transition: transform 0.1s ease-in-out;
+
+        scroll-snap-type: x mandatory;
+
+        overflow-x: auto;
+
+        scrollbar-width: none;
+
+    }
+
+    .carousel::-webkit-scrollbar {
+
+        display: none;
+    }
+
+    .slide {
+
+        width: 450px;
+
+        height: 450px;
+
+        scroll-snap-align: start;
+
+        position: relative;
+    }
+
+    .slide img {
+
+        width: 450px;
+
+        height: 450px;
+
+        object-fit: cover;
+    }
+
+    .caption {
+
+        position: absolute;
+
+        bottom: 20px;
+
+        left: 20px;
+
+        background: rgba(0, 0, 0, 0.2);
+
+        color: white;
+
+        padding: 10px 20px;
+
+        border-radius: 5px;
+
+    }
